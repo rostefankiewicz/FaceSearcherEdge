@@ -1,0 +1,12 @@
+D:\CyberBase\src\code2013\AureusCsharpConsole\bin\Release\AureusCsharpConsole.exe.config
+D:\CyberBase\src\code2013\AureusCsharpConsole\bin\Release\AureusCsharpConsole.exe
+D:\CyberBase\src\code2013\AureusCsharpConsole\bin\Release\AureusCsharpConsole.pdb
+D:\CyberBase\src\code2013\AureusCsharpConsole\obj\Release\AureusCsharpConsole.csprojResolveAssemblyReference.cache
+D:\CyberBase\src\code2013\AureusCsharpConsole\obj\Release\AureusCsharpConsole.exe
+D:\CyberBase\src\code2013\AureusCsharpConsole\obj\Release\AureusCsharpConsole.pdb
+C:\CyberExtruder\Aureus\AureusCsharpConsole\bin\Release\AureusCsharpConsole.exe.config
+C:\CyberExtruder\Aureus\AureusCsharpConsole\obj\Release\AureusCsharpConsole.exe
+C:\CyberExtruder\Aureus\AureusCsharpConsole\obj\Release\AureusCsharpConsole.pdb
+C:\CyberExtruder\Aureus\AureusCsharpConsole\bin\Release\AureusCsharpConsole.exe
+C:\CyberExtruder\Aureus\AureusCsharpConsole\bin\Release\AureusCsharpConsole.pdb
+C:\CyberExtruder\Aureus\AureusCsharpConsole\obj\Release\AureusCsharpConsole.csprojResolveAssemblyReference.cache

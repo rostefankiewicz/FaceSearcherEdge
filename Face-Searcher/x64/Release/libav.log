@@ -1,0 +1,465 @@
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 660357.209000, bitrate: N/A
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, "dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartIPorMediaFile: http://199.249.109.58/mjpg/video.mjpg?.mjpeg
+StartStream: http://199.249.109.58/mjpg/video.mjpg?.mjpeg
+options after avformat_open_input:
+ce_libav, requested option unused: 'allowed_media_types'.
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtsp_transport'.
+ce_libav, requested option unused: 'framerate'.
+Input #0, mpjpeg, from 'http://199.249.109.58/mjpg/video.mjpg?.mjpeg':
+  Duration: N/A, bitrate: N/A
+    Stream #0:0: Video: mjpeg, yuvj422p(pc, bt470bg/unknown/unknown), 640x480, 25 tbr, 25 tbn, 25 tbc
+"mjpeg" options being passed to avcodec_open2:
+"mjpeg" ce_libav, requested option unused: 'allowed_media_types'.
+"mjpeg" ce_libav, requested option unused: 'threads'.
+"mjpeg" ce_libav, requested option unused: 'refcounted_frames'.
+"mjpeg" ce_libav, requested option unused: 'sync'.
+"mjpeg" ce_libav, requested option unused: 'hwaccel'.
+"mjpeg" ce_libav, requested option unused: 'rtsp_transport'.
+"mjpeg" ce_libav, requested option unused: 'framerate'.
+"mjpeg" No hardware decompression in use.
+"swscaler" deprecated pixel format used, make sure you did set range correctly
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 661669.565000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 661808.664000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 662101.162000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 662563.789000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 662722.526000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 662993.807000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 663178.367000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 663417.471000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 663740.249000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 664064.476000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 664141.748000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 664555.236000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 665589.325000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 665664.686000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 666660.793000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+StartIPorMediaFile: file:C:/Allevate/Face-Searcher/Videos/three.wmv
+StartStream: file:C:/Allevate/Face-Searcher/Videos/three.wmv
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'framerate'.
+ce_libav, requested option unused: 'scan_all_pmts'.
+Input #0, avi, from 'file:C:/Allevate/Face-Searcher/Videos/three.wmv':
+  Metadata:
+    creation_time   : 2007-08-27 13:10:16
+    encoder         : CanonMVI06
+  Duration: 00:00:31.93, start: 0.000000, bitrate: 13987 kb/s
+    Stream #0:0: Video: mjpeg (MJPG / 0x47504A4D), yuvj422p(pc, bt470bg/unknown/unknown), 640x480, 13291 kb/s, 30 fps, 30 tbr, 30 tbn, 30 tbc
+    Stream #0:1: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 44100 Hz, 1 channels, s16, 705 kb/s
+"mjpeg" options being passed to avcodec_open2:
+"mjpeg" ce_libav, requested option unused: 'threads'.
+"mjpeg" ce_libav, requested option unused: 'refcounted_frames'.
+"mjpeg" ce_libav, requested option unused: 'sync'.
+"mjpeg" ce_libav, requested option unused: 'hwaccel'.
+"mjpeg" ce_libav, requested option unused: 'framerate'.
+"mjpeg" ce_libav, requested option unused: 'scan_all_pmts'.
+"mjpeg" No hardware decompression in use.
+"swscaler" deprecated pixel format used, make sure you did set range correctly
+StartUSB: video=Logitech Webcam 600
+StartStream: video=Logitech Webcam 600
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'rtbufsize '.
+Input #0, dshow, from 'video=Logitech Webcam 600':
+  Duration: N/A, start: 666708.958000, bitrate: N/A
+    Stream #0:0: Video: rawvideo, bgr24, 640x480, 30 fps, 30 tbr, 10000k tbn, 10000k tbc
+"rawvideo" options being passed to avcodec_open2:
+"rawvideo" ce_libav, requested option unused: 'threads'.
+"rawvideo" ce_libav, requested option unused: 'refcounted_frames'.
+"rawvideo" ce_libav, requested option unused: 'sync'.
+"rawvideo" ce_libav, requested option unused: 'hwaccel'.
+"rawvideo" ce_libav, requested option unused: 'rtbufsize '.
+"rawvideo" No hardware decompression in use.
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (121% of size: 3041280 [rtbufsize parameter])! frame dropped!
+"dshow" real-time buffer [Logitech Webcam 600] [video input] too full or near too full (90% of size: 3041280 [rtbufsize parameter])! frame dropped!
+StartIPorMediaFile: file:C:/Allevate/Face-Searcher/Videos/two.wmv
+StartStream: file:C:/Allevate/Face-Searcher/Videos/two.wmv
+options after avformat_open_input:
+ce_libav, requested option unused: 'threads'.
+ce_libav, requested option unused: 'refcounted_frames'.
+ce_libav, requested option unused: 'sync'.
+ce_libav, requested option unused: 'hwaccel'.
+ce_libav, requested option unused: 'framerate'.
+ce_libav, requested option unused: 'scan_all_pmts'.
+Input #0, avi, from 'file:C:/Allevate/Face-Searcher/Videos/two.wmv':
+  Metadata:
+    creation_time   : 2007-03-25 05:37:07
+    encoder         : CanonMVI01
+  Duration: 00:00:20.80, start: 0.000000, bitrate: 2618 kb/s
+    Stream #0:0: Video: mjpeg (MJPG / 0x47504A4D), yuvj422p(pc, bt470bg/unknown/unknown), 320x240, 2534 kb/s, 15 fps, 15 tbr, 15 tbn, 15 tbc
+    Stream #0:1: Audio: pcm_u8 ([1][0][0][0] / 0x0001), 11024 Hz, 1 channels, u8, 88 kb/s
+"mjpeg" options being passed to avcodec_open2:
+"mjpeg" ce_libav, requested option unused: 'threads'.
+"mjpeg" ce_libav, requested option unused: 'refcounted_frames'.
+"mjpeg" ce_libav, requested option unused: 'sync'.
+"mjpeg" ce_libav, requested option unused: 'hwaccel'.
+"mjpeg" ce_libav, requested option unused: 'framerate'.
+"mjpeg" ce_libav, requested option unused: 'scan_all_pmts'.
+"mjpeg" No hardware decompression in use.
+"swscaler" deprecated pixel format used, make sure you did set range correctly

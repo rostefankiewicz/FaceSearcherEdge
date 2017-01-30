@@ -1,0 +1,6 @@
+D:\CyberBase\src\code2013\AureusCsharpConsole\bin\Debug\AureusCsharpConsole.exe.config
+D:\CyberBase\src\code2013\AureusCsharpConsole\bin\Debug\AureusCsharpConsole.exe
+D:\CyberBase\src\code2013\AureusCsharpConsole\bin\Debug\AureusCsharpConsole.pdb
+D:\CyberBase\src\code2013\AureusCsharpConsole\obj\Debug\AureusCsharpConsole.exe
+D:\CyberBase\src\code2013\AureusCsharpConsole\obj\Debug\AureusCsharpConsole.pdb
+D:\CyberBase\src\code2013\AureusCsharpConsole\obj\Debug\AureusCsharpConsole.csprojResolveAssemblyReference.cache

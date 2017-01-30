@@ -1,0 +1,22 @@
+﻿Build started 1/13/2017 2:51:05 AM.
+     1>Project "C:\CyberExtruder\Aureus\tinyxml\tinyxmlSTL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D TIXML_USE_STL /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\\" /Fd"C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\vc120.pdb" /FR"C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\\" /Gd /TP /analyze- /errorReport:prompt tinystr.cpp tinyxml.cpp tinyxmlerror.cpp tinyxmlparser.cpp
+         tinyxmlparser.cpp
+         tinyxmlerror.cpp
+         tinyxml.cpp
+         tinystr.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxmlSTL.lib" /NOLOGO C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinystr.obj
+         C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxml.obj
+         C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxmlerror.obj
+         C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxmlparser.obj
+         tinyxmlSTL.vcxproj -> C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxmlSTL.lib
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o"C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxmlSTL.bsc" C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinystr.sbr C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxml.sbr C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxmlerror.sbr C:\CyberExtruder\Aureus\tinyxml\DebugtinyxmlSTL\tinyxmlparser.sbr
+     1>Done Building Project "C:\CyberExtruder\Aureus\tinyxml\tinyxmlSTL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.48

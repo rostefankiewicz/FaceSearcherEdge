@@ -1,0 +1,382 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+
+  <emailConfiguration>
+    <emailSettings>
+      <emailAccountName>linuxemailsender</emailAccountName>
+      <sender>linuxemailsender@gmail.com</sender>
+      <password>ASDj8212DJ28dnask</password>
+      <receiver>danielleon@allevate.com</receiver>
+      <contents>TBD</contents>
+    </emailSettings>
+  </emailConfiguration>
+
+  <licenseInformation>
+    <dateIssued>YYYYMMDDHHMMSS</dateIssued>
+    <daysLeft>text</daysLeft>
+    <dateExpires>YYYYMMDDHHMMSS</dateExpires>
+  </licenseInformation>
+
+  <cameraConfiguration>
+    <recordNumber>
+
+      <cameraIndex>
+        1</cameraIndex>
+
+          <cameraMetaDataSettings>
+            <location> Location </location>
+            <CameraID> 4815262342 </CameraID>
+            <URL> http://199.249.109.58/mjpg/video.mjpg?.mjpeg </URL>
+            <numberImages> 1 </numberImages>
+          </cameraMetaDataSettings>
+
+          <videoStreamControlSettings>
+            <version> 1 </version>
+            <face_detect_top> 0.001 </face_detect_top>
+            <face_detect_left> 0.001 </face_detect_left>
+            <face_detect_height> 0.998 </face_detect_height>
+            <face_detect_width> 0.998 </face_detect_width>
+            <face_detect_min_height_prop> 0.200 </face_detect_min_height_prop>
+            <face_detect_max_height_prop> 0.600 </face_detect_max_height_prop>
+            <frame_interval> 0 </frame_interval>
+            <reduce_frame_step> 0 </reduce_frame_step>
+            <generate_templates> false </generate_templates>
+            <perform_ranking> false </perform_ranking>
+            <verification_thresh> 0.000 </verification_thresh>
+          </videoStreamControlSettings>
+
+          <videoStreamResultsSettings>
+            <save_xml_results> true </save_xml_results>
+            <save_xml_folder> C:/Allevate/Face-Searcher/POST/Camera1/ </save_xml_folder>
+            <remove_files> false </remove_files>
+            <post_xml> true </post_xml>
+            <post_url> http://localhost:81 </post_url>
+            <save_images> true </save_images>
+            <save_images_folder> C:/Allevate/Face-Searcher/Results/Images/Camera1/ </save_images_folder>
+            <save_only_verified> false </save_only_verified>
+            <root_tag> CustomerInfoRequest </root_tag>
+            <person_name> false </person_name>
+            <person_name_tag> externalId </person_name_tag>
+            <person_id> false </person_id>
+            <person_id_tag> person_id </person_id_tag>
+            <processed_frames> true </processed_frames>
+            <processed_frames_tag> ProcessedFrames </processed_frames_tag>
+            <head_id> true </head_id>
+            <head_id_tag> head_id </head_id_tag>
+            <stream_type> true </stream_type>
+            <stream_type_tag> stream_type </stream_type_tag>
+            <stream_connection_info> true </stream_connection_info>
+            <stream_connection_info_tag> conn_info </stream_connection_info_tag>
+            <stream_index> true </stream_index>
+            <stream_index_tag> stream_index </stream_index_tag>
+            <verification_threshold> true </verification_threshold>
+            <verification_threshold_tag> VerificationThresh </verification_threshold_tag>
+            <frame_number> true </frame_number>
+            <frame_number_tag> FrameNumber </frame_number_tag>
+            <utc_time> true </utc_time>
+            <utc_time_tag> utcTime </utc_time_tag>
+            <ranked_results> true </ranked_results>
+            <ranked_results_n> 1 </ranked_results_n>
+            <ranked_results_tag> NumOfRankedResults </ranked_results_tag>
+            <matched_person_name> true </matched_person_name>
+            <matched_person_name_tag> externalId </matched_person_name_tag>
+            <matched_person_id> true </matched_person_id>
+            <matched_person_id_tag> person_id </matched_person_id_tag>
+            <matched_image_id> true </matched_image_id>
+            <matched_image_id_tag> image_id </matched_image_id_tag>
+            <date_time_stamp> true </date_time_stamp>
+            <date_time_stamp_tag> DateTime </date_time_stamp_tag>
+            <confidence_measure> true </confidence_measure>
+            <confidence_measure_tag> Confidence </confidence_measure_tag>
+            <focus_measure> true </focus_measure>
+            <focus_measure_tag> Focus </focus_measure_tag>
+            <eye_positions> true </eye_positions>
+            <eye_positions_tag> EyePositions </eye_positions_tag>
+            <face_box> true </face_box>
+            <face_box_tag> FaceBox </face_box_tag>
+            <match_score> true </match_score>
+            <match_score_tag> MatchScore </match_score_tag>
+            <matched_status> true </matched_status>
+            <matched_status_tag> matchStatus </matched_status_tag>
+            <tracked_image> true </tracked_image>
+            <tracked_image_tag> capturedImage </tracked_image_tag>
+            <matched_person_thumbnail> true </matched_person_thumbnail>
+            <matched_person_thumbnail_tag> MatchedPersonImage </matched_person_thumbnail_tag>
+            <matched_thumbnail> true </matched_thumbnail>
+            <matched_thumbnail_tag> MatchedImage </matched_thumbnail_tag>
+          </videoStreamResultsSettings>
+
+        </recordNumber>
+
+    <recordNumber>
+
+      <cameraIndex>
+        2</cameraIndex>
+
+          <cameraMetaDataSettings>
+            <location> Location </location>
+            <CameraID> ID </CameraID>
+            <URL> http://199.249.109.58/mjpg/video.mjpg?.mjpeg </URL>
+            <numberImages> 1 </numberImages>
+          </cameraMetaDataSettings>
+
+          <videoStreamControlSettings>
+            <version> 1 </version>
+            <face_detect_top> 0.001 </face_detect_top>
+            <face_detect_left> 0.001 </face_detect_left>
+            <face_detect_height> 0.998 </face_detect_height>
+            <face_detect_width> 0.998 </face_detect_width>
+            <face_detect_min_height_prop> 0.200 </face_detect_min_height_prop>
+            <face_detect_max_height_prop> 0.600 </face_detect_max_height_prop>
+            <frame_interval> 0 </frame_interval>
+            <reduce_frame_step> 0 </reduce_frame_step>
+            <generate_templates> false </generate_templates>
+            <perform_ranking> false </perform_ranking>
+            <verification_thresh> 0.000 </verification_thresh>
+          </videoStreamControlSettings>
+
+          <videoStreamResultsSettings>
+            <save_xml_results> true </save_xml_results>
+            <save_xml_folder> C:/Allevate/Face-Searcher/POST/Camera2/ </save_xml_folder>
+            <remove_files> false </remove_files>
+            <post_xml> true </post_xml>
+            <post_url> http://localhost:81 </post_url>
+            <save_images> true </save_images>
+            <save_images_folder> C:/Allevate/Face-Searcher/Results/Images/Camera2/ </save_images_folder>
+            <save_only_verified> false </save_only_verified>
+            <root_tag> CustomerInfoRequest </root_tag>
+            <person_name> false </person_name>
+            <person_name_tag> externalId </person_name_tag>
+            <person_id> false </person_id>
+            <person_id_tag> person_id </person_id_tag>
+            <processed_frames> true </processed_frames>
+            <processed_frames_tag> ProcessedFrames </processed_frames_tag>
+            <head_id> true </head_id>
+            <head_id_tag> head_id </head_id_tag>
+            <stream_type> true </stream_type>
+            <stream_type_tag> stream_type </stream_type_tag>
+            <stream_connection_info> true </stream_connection_info>
+            <stream_connection_info_tag> conn_info </stream_connection_info_tag>
+            <stream_index> true </stream_index>
+            <stream_index_tag> stream_index </stream_index_tag>
+            <verification_threshold> true </verification_threshold>
+            <verification_threshold_tag> VerificationThresh </verification_threshold_tag>
+            <frame_number> true </frame_number>
+            <frame_number_tag> FrameNumber </frame_number_tag>
+            <utc_time> true </utc_time>
+            <utc_time_tag> utcTime </utc_time_tag>
+            <ranked_results> false </ranked_results>
+            <ranked_results_n> 1 </ranked_results_n>
+            <ranked_results_tag> NumOfRankedResults </ranked_results_tag>
+            <matched_person_name> false </matched_person_name>
+            <matched_person_name_tag> externalId </matched_person_name_tag>
+            <matched_person_id> false </matched_person_id>
+            <matched_person_id_tag> person_id </matched_person_id_tag>
+            <matched_image_id> false </matched_image_id>
+            <matched_image_id_tag> image_id </matched_image_id_tag>
+            <date_time_stamp> true </date_time_stamp>
+            <date_time_stamp_tag> DateTime </date_time_stamp_tag>
+            <confidence_measure> true </confidence_measure>
+            <confidence_measure_tag> Confidence </confidence_measure_tag>
+            <focus_measure> true </focus_measure>
+            <focus_measure_tag> Focus </focus_measure_tag>
+            <eye_positions> true </eye_positions>
+            <eye_positions_tag> EyePositions </eye_positions_tag>
+            <face_box> true </face_box>
+            <face_box_tag> FaceBox </face_box_tag>
+            <match_score> false </match_score>
+            <match_score_tag> MatchScore </match_score_tag>
+            <matched_status> false </matched_status>
+            <matched_status_tag> matchStatus </matched_status_tag>
+            <tracked_image> true </tracked_image>
+            <tracked_image_tag> capturedImage </tracked_image_tag>
+            <matched_person_thumbnail> false </matched_person_thumbnail>
+            <matched_person_thumbnail_tag> MatchedPersonImage </matched_person_thumbnail_tag>
+            <matched_thumbnail> false </matched_thumbnail>
+            <matched_thumbnail_tag> MatchedImage </matched_thumbnail_tag>
+          </videoStreamResultsSettings>
+
+        </recordNumber>
+
+    <recordNumber>
+
+      <cameraIndex>
+        3</cameraIndex>
+
+          <cameraMetaDataSettings>
+            <location> Location </location>
+            <CameraID> ID </CameraID>
+            <URL> http://199.249.109.58/mjpg/video.mjpg?.mjpeg </URL>
+            <numberImages> 1 </numberImages>
+          </cameraMetaDataSettings>
+
+          <videoStreamControlSettings>
+            <version> 1 </version>
+            <face_detect_top> 0.001 </face_detect_top>
+            <face_detect_left> 0.001 </face_detect_left>
+            <face_detect_height> 0.998 </face_detect_height>
+            <face_detect_width> 0.998 </face_detect_width>
+            <face_detect_min_height_prop> 0.200 </face_detect_min_height_prop>
+            <face_detect_max_height_prop> 0.600 </face_detect_max_height_prop>
+            <frame_interval> 0 </frame_interval>
+            <reduce_frame_step> 0 </reduce_frame_step>
+            <generate_templates> false </generate_templates>
+            <perform_ranking> false </perform_ranking>
+            <verification_thresh> 0.000 </verification_thresh>
+          </videoStreamControlSettings>
+
+          <videoStreamResultsSettings>
+            <save_xml_results> true </save_xml_results>
+            <save_xml_folder> C:/Allevate/Face-Searcher/POST/Camera3/ </save_xml_folder>
+            <remove_files> false </remove_files>
+            <post_xml> true </post_xml>
+            <post_url> http://localhost:81 </post_url>
+            <save_images> true </save_images>
+            <save_images_folder> C:/Allevate/Face-Searcher/Results/Images/Camera3/ </save_images_folder>
+            <save_only_verified> false </save_only_verified>
+            <root_tag> CustomerInfoRequest </root_tag>
+            <person_name> false </person_name>
+            <person_name_tag> externalId </person_name_tag>
+            <person_id> false </person_id>
+            <person_id_tag> person_id </person_id_tag>
+            <processed_frames> true </processed_frames>
+            <processed_frames_tag> ProcessedFrames </processed_frames_tag>
+            <head_id> true </head_id>
+            <head_id_tag> head_id </head_id_tag>
+            <stream_type> true </stream_type>
+            <stream_type_tag> stream_type </stream_type_tag>
+            <stream_connection_info> true </stream_connection_info>
+            <stream_connection_info_tag> conn_info </stream_connection_info_tag>
+            <stream_index> true </stream_index>
+            <stream_index_tag> stream_index </stream_index_tag>
+            <verification_threshold> true </verification_threshold>
+            <verification_threshold_tag> VerificationThresh </verification_threshold_tag>
+            <frame_number> true </frame_number>
+            <frame_number_tag> FrameNumber </frame_number_tag>
+            <utc_time> true </utc_time>
+            <utc_time_tag> utcTime </utc_time_tag>
+            <ranked_results> false </ranked_results>
+            <ranked_results_n> 1 </ranked_results_n>
+            <ranked_results_tag> NumOfRankedResults </ranked_results_tag>
+            <matched_person_name> false </matched_person_name>
+            <matched_person_name_tag> externalId </matched_person_name_tag>
+            <matched_person_id> false </matched_person_id>
+            <matched_person_id_tag> person_id </matched_person_id_tag>
+            <matched_image_id> false </matched_image_id>
+            <matched_image_id_tag> image_id </matched_image_id_tag>
+            <date_time_stamp> true </date_time_stamp>
+            <date_time_stamp_tag> DateTime </date_time_stamp_tag>
+            <confidence_measure> true </confidence_measure>
+            <confidence_measure_tag> Confidence </confidence_measure_tag>
+            <focus_measure> true </focus_measure>
+            <focus_measure_tag> Focus </focus_measure_tag>
+            <eye_positions> true </eye_positions>
+            <eye_positions_tag> EyePositions </eye_positions_tag>
+            <face_box> true </face_box>
+            <face_box_tag> FaceBox </face_box_tag>
+            <match_score> false </match_score>
+            <match_score_tag> MatchScore </match_score_tag>
+            <matched_status> false </matched_status>
+            <matched_status_tag> matchStatus </matched_status_tag>
+            <tracked_image> true </tracked_image>
+            <tracked_image_tag> capturedImage </tracked_image_tag>
+            <matched_person_thumbnail> false </matched_person_thumbnail>
+            <matched_person_thumbnail_tag> MatchedPersonImage </matched_person_thumbnail_tag>
+            <matched_thumbnail> false </matched_thumbnail>
+            <matched_thumbnail_tag> MatchedImage </matched_thumbnail_tag>
+          </videoStreamResultsSettings>
+
+        </recordNumber>
+
+    <recordNumber>
+
+      <cameraIndex>
+        4</cameraIndex>
+
+          <cameraMetaDataSettings>
+            <location> Location </location>
+            <CameraID> ID </CameraID>
+            <URL> http://199.249.109.58/mjpg/video.mjpg?.mjpeg </URL>
+            <numberImages> 1 </numberImages>
+          </cameraMetaDataSettings>
+
+          <videoStreamControlSettings>
+            <version> 1 </version>
+            <face_detect_top> 0.001 </face_detect_top>
+            <face_detect_left> 0.001 </face_detect_left>
+            <face_detect_height> 0.998 </face_detect_height>
+            <face_detect_width> 0.998 </face_detect_width>
+            <face_detect_min_height_prop> 0.200 </face_detect_min_height_prop>
+            <face_detect_max_height_prop> 0.600 </face_detect_max_height_prop>
+            <frame_interval> 0 </frame_interval>
+            <reduce_frame_step> 0 </reduce_frame_step>
+            <generate_templates> false </generate_templates>
+            <perform_ranking> false </perform_ranking>
+            <verification_thresh> 0.000 </verification_thresh>
+          </videoStreamControlSettings>
+
+          <videoStreamResultsSettings>
+            <save_xml_results> true </save_xml_results>
+            <save_xml_folder> C:/Allevate/Face-Searcher/POST/Camera4/ </save_xml_folder>
+            <remove_files> false </remove_files>
+            <post_xml> true </post_xml>
+            <post_url> http://localhost:81 </post_url>
+            <save_images> true </save_images>
+            <save_images_folder> C:/Allevate/Face-Searcher/Results/Images/Camera4/ </save_images_folder>
+            <save_only_verified> false </save_only_verified>
+            <root_tag> CustomerInfoRequest </root_tag>
+            <person_name> false </person_name>
+            <person_name_tag> externalId </person_name_tag>
+            <person_id> false </person_id>
+            <person_id_tag> person_id </person_id_tag>
+            <processed_frames> true </processed_frames>
+            <processed_frames_tag> ProcessedFrames </processed_frames_tag>
+            <head_id> true </head_id>
+            <head_id_tag> head_id </head_id_tag>
+            <stream_type> true </stream_type>
+            <stream_type_tag> stream_type </stream_type_tag>
+            <stream_connection_info> true </stream_connection_info>
+            <stream_connection_info_tag> conn_info </stream_connection_info_tag>
+            <stream_index> true </stream_index>
+            <stream_index_tag> stream_index </stream_index_tag>
+            <verification_threshold> true </verification_threshold>
+            <verification_threshold_tag> VerificationThresh </verification_threshold_tag>
+            <frame_number> true </frame_number>
+            <frame_number_tag> FrameNumber </frame_number_tag>
+            <utc_time> true </utc_time>
+            <utc_time_tag> utcTime </utc_time_tag>
+            <ranked_results> false </ranked_results>
+            <ranked_results_n> 1 </ranked_results_n>
+            <ranked_results_tag> NumOfRankedResults </ranked_results_tag>
+            <matched_person_name> false </matched_person_name>
+            <matched_person_name_tag> externalId </matched_person_name_tag>
+            <matched_person_id> false </matched_person_id>
+            <matched_person_id_tag> person_id </matched_person_id_tag>
+            <matched_image_id> false </matched_image_id>
+            <matched_image_id_tag> image_id </matched_image_id_tag>
+            <date_time_stamp> true </date_time_stamp>
+            <date_time_stamp_tag> DateTime </date_time_stamp_tag>
+            <confidence_measure> true </confidence_measure>
+            <confidence_measure_tag> Confidence </confidence_measure_tag>
+            <focus_measure> true </focus_measure>
+            <focus_measure_tag> Focus </focus_measure_tag>
+            <eye_positions> true </eye_positions>
+            <eye_positions_tag> EyePositions </eye_positions_tag>
+            <face_box> true </face_box>
+            <face_box_tag> FaceBox </face_box_tag>
+            <match_score> false </match_score>
+            <match_score_tag> MatchScore </match_score_tag>
+            <matched_status> false </matched_status>
+            <matched_status_tag> matchStatus </matched_status_tag>
+            <tracked_image> true </tracked_image>
+            <tracked_image_tag> capturedImage </tracked_image_tag>
+            <matched_person_thumbnail>  </matched_person_thumbnail>
+            <matched_person_thumbnail_tag> MatchedPersonImage </matched_person_thumbnail_tag>
+            <matched_thumbnail> false </matched_thumbnail>
+            <matched_thumbnail_tag> MatchedImage </matched_thumbnail_tag>
+          </videoStreamResultsSettings>
+
+        </recordNumber>
+  </cameraConfiguration>
+
+</SOAP-ENV:Envelope>

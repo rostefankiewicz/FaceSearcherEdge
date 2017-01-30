@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9EB11EE-EE11-4A0D-9753-D32FDF4C3F9C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AureusVideoGUI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__WXMSW__;_UNICODE;NOPCH;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../Aureus;./include/wxWidgets</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Aureus.lib;jpeg.lib;wxmsw30ud_gl.lib;wxmsw30ud_core.lib;wxbase30ud.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);./libs</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__WXMSW__;wxUSE_ANY;wxUSE_BUTTON;wxUSE_NOTEBOOK;wxUSE_CMDLINE_PARSER;wxUSE_FILEDLG;wxUSE_CHOICE;wxUSE_COMBOBOX;wxUSE_GAUGE;wxUSE_NUMBERDLG;wxUSE_TOOLBAR;wxUSE_TIMER;wxUSE_TEXTCTRL;wxUSE_STATBOX;wxUSE_TEXTDLG;wxUSE_VALIDATORS;wxUSE_MSGDLG;wxUSE_CONTROLS;wxUSE_GUI;wxUSE_GLCANVAS;wxUSE_MENUS;wxUSE_SCROLLBAR;wxUSE_STATTEXT;_UNICODE;NOPCH;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../Aureus;../wxWidgets/include;../wxWidgets/include/msvc</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Aureus.lib;jpeg.lib;wxmsw30ud_gl.lib;wxmsw30ud_core.lib;wxbase30ud.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);../wxWidgets/libs/x64</AdditionalLibraryDirectories>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;IS_32_BIT;__WXMSW__;wxUSE_ANY;wxUSE_BUTTON;wxUSE_NOTEBOOK;wxUSE_CMDLINE_PARSER;wxUSE_FILEDLG;wxUSE_CHOICE;wxUSE_COMBOBOX;wxUSE_GAUGE;wxUSE_NUMBERDLG;wxUSE_TOOLBAR;wxUSE_TIMER;wxUSE_TEXTCTRL;wxUSE_STATBOX;wxUSE_TEXTDLG;wxUSE_VALIDATORS;wxUSE_MSGDLG;wxUSE_CONTROLS;wxUSE_GUI;wxUSE_GLCANVAS;wxUSE_MENUS;wxUSE_SCROLLBAR;wxUSE_STATTEXT;wxNO_TIFF_LIB;_UNICODE;NOPCH;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../Aureus;../wxWidgets/include;../wxWidgets/include/msvc</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);../wxWidgets/libs/win32</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Aureus.lib;jpeg.lib;wxmsw30u_gl.lib;wxmsw30u_core.lib;wxbase30u.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;__WXMSW__;wxUSE_ANY;wxUSE_BUTTON;wxUSE_NOTEBOOK;wxUSE_CMDLINE_PARSER;wxUSE_FILEDLG;wxUSE_CHOICE;wxUSE_COMBOBOX;wxUSE_GAUGE;wxUSE_NUMBERDLG;wxUSE_TOOLBAR;wxUSE_TIMER;wxUSE_TEXTCTRL;wxUSE_STATBOX;wxUSE_TEXTDLG;wxUSE_VALIDATORS;wxUSE_MSGDLG;wxUSE_CONTROLS;wxUSE_GUI;wxUSE_GLCANVAS;wxUSE_MENUS;wxUSE_SCROLLBAR;wxUSE_STATTEXT;wxNO_TIFF_LIB;_UNICODE;NOPCH;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../Aureus;../wxWidgets/include;../wxWidgets/include/msvc</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OutDir);../wxWidgets/libs/x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Aureus.lib;jpeg.lib;wxmsw30u_gl.lib;wxmsw30u_core.lib;wxbase30u.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AureusVideoGUI.cpp" />
+    <ClCompile Include="CX_3Dwin.cpp" />
+    <ClCompile Include="CX_Icons.cpp" />
+    <ClCompile Include="CX_ImageGrid.cpp" />
+    <ClCompile Include="CX_ImageList.cpp" />
+    <ClCompile Include="CX_ImageWindow.cpp" />
+    <ClCompile Include="CX_EnrollPanel.cpp" />
+    <ClCompile Include="CX_GalleryPanel.cpp" />
+    <ClCompile Include="CX_VideoDisplay.cpp" />
+    <ClCompile Include="CX_VideoDialog.cpp" />
+    <ClCompile Include="CX_VideoPanel.cpp" />
+    <ClCompile Include="CX_FRList.cpp" />
+    <ClCompile Include="CX_GalleryInfoPanel.cpp" />
+    <ClCompile Include="CX_GalleryList.cpp" />
+    <ClCompile Include="CX_PersonImageList.cpp" />
+    <ClCompile Include="CX_ResultsPanel.cpp" />
+    <ClCompile Include="CX_UpdateTimer.cpp" />
+    <ClCompile Include="cxutils.cpp" />
+    <ClCompile Include="FDPdlg.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AureusVideoGUI.h" />
+    <ClInclude Include="CX_3Dwin.h" />
+    <ClInclude Include="CX_OGLdefs.h" />
+    <ClInclude Include="CX_ImageGrid.h" />
+    <ClInclude Include="CX_ImageList.h" />
+    <ClInclude Include="CX_ImageWindow.h" />
+    <ClInclude Include="CX_EnrollPanel.h" />
+    <ClInclude Include="CX_GalleryPanel.h" />
+    <ClInclude Include="CX_VideoDisplay.h" />
+    <ClInclude Include="CX_VideoDialog.h" />
+    <ClInclude Include="CX_VideoPanel.h" />
+    <ClInclude Include="CX_FRList.h" />
+    <ClInclude Include="CX_GalleryInfoPanel.h" />
+    <ClInclude Include="CX_GalleryList.h" />
+    <ClInclude Include="CX_PersonImageList.h" />
+    <ClInclude Include="CX_ResultsPanel.h" />
+    <ClInclude Include="CX_UpdateTimer.h" />
+    <ClInclude Include="cxutils.h" />
+    <ClInclude Include="FDPdlg.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,18 @@
+AureusVideoGUI.o \
+cxutils.o \
+CX_EnrollPanel.o \
+CX_FRList.o \
+CX_GalleryInfoPanel.o \
+CX_GalleryList.o \
+CX_GalleryPanel.o \
+CX_Icons.o \
+CX_ImageGrid.o \
+CX_ImageList.o \
+CX_ImageWindow.o \
+CX_PersonImageList.o \
+CX_ResultsPanel.o \
+CX_UpdateTimer.o \
+CX_VideoDialog.o \
+CX_VideoDisplay.o \
+CX_VideoPanel.o \
+FDPdlg.o
